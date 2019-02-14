@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-import ilya as ThemeManager
-from PySide2.QtCore     import Signal, Qt, QPointF
-from PySide2.QtGui      import QIcon, QColor
-from PySide2.QtWidgets  import QFrame, QVBoxLayout, QHBoxLayout, QMainWindow, QApplication, QSizePolicy, QSpacerItem, QGraphicsDropShadowEffect, QWidget
-from ilya               import TopBar
-from ilya               import FolderList
-from ilya               import ImageList
-from ilya               import ScrollBar
-from ilya               import Canvas
-from ilya               import BoxManager
-from ilya               import LabelConfigurator
+from PySide2.QtCore         import Signal, Qt, QPointF
+from PySide2.QtGui          import QIcon, QColor
+from PySide2.QtWidgets      import QFrame, QVBoxLayout, QHBoxLayout, QMainWindow, QApplication, QSizePolicy, QSpacerItem, QGraphicsDropShadowEffect, QWidget
+from ilya                   import ThemeManager
+from ilya.TopBar            import TopBar
+from ilya.FolderList        import FolderList
+from ilya.ImageList         import ImageList
+from ilya.ScrollBar         import ScrollBar
+from ilya.Canvas            import Canvas
+from ilya.BoxManager        import BoxManager
+from ilya.LabelConfigurator import LabelConfigurator
 
 class Central(QFrame):
     '''Initializes, styles, and connects the various classes'''
