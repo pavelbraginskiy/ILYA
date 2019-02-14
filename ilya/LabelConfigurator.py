@@ -1,4 +1,4 @@
-import ThemeManager
+from . import ThemeManager
 from PySide2.QtWidgets import QFrame, QVBoxLayout
 from PySide2.QtCore import Signal, QSize, Qt
 from PySide2.QtGui import QImageReader, QPainter, QPen, QFont, QPixmap, QFontMetrics

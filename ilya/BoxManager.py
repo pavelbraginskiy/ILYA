@@ -1,5 +1,5 @@
 import pandas as pd
-import ThemeManager
+from . import ThemeManager
 from PySide2.QtCore import Signal, QObject
 
 class BoxManager(QObject):

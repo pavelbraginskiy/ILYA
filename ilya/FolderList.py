@@ -1,5 +1,5 @@
 import os
-import ThemeManager
+from . import ThemeManager
 from PySide2.QtCore     import Qt, Signal, QSize
 from PySide2.QtWidgets  import QListView, QStyledItemDelegate, QFrame, QAbstractItemView, QStyle
 from PySide2.QtGui      import QStandardItemModel, QStandardItem, QFont, QColor, QBrush

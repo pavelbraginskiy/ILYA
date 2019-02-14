@@ -31,6 +31,6 @@ setup(
     install_requires=requirements,
     long_description=readme,
     long_description_content_type="text/markdown",
-    packages=['ilya'],
+    packages=['ILYA'],
     scripts=['bin/ilya', 'bin/ilya.py']
 )

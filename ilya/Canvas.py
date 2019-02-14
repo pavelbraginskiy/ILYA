@@ -2,10 +2,10 @@ import os
 from PySide2.QtCore     import QTimer, Signal, QSize, QRect, QPoint, Qt, QPersistentModelIndex
 from PySide2.QtGui      import QPainter, QPen, QFont, QFontMetrics, QPixmap, QColor, QBrush
 from PySide2.QtWidgets  import QFrame
-from BoxManager         import BoxManager
-from DeletePopup        import ConfirmDelete
-from LabelConfigurator  import LabelConfigurator
-import ThemeManager
+from .BoxManager         import BoxManager
+from .DeletePopup        import ConfirmDelete
+from .LabelConfigurator  import LabelConfigurator
+from . import ThemeManager
 
 class Canvas(QFrame):
     '''Takes care of showing the currently focused image and the main app use case of creating labels'''

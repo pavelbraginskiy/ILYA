@@ -1,7 +1,7 @@
 from PySide2.QtCore     import  Qt, Signal, QPoint
 from PySide2.QtWidgets  import  QVBoxLayout, QHBoxLayout, QDialog, \
                                 QLabel, QPushButton
-import ThemeManager
+from . import ThemeManager
 
 class ConfirmDelete(QDialog):
     def __init__(self, parent):

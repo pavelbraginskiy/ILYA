@@ -2,15 +2,14 @@
 from PySide2.QtCore         import Signal, Qt, QPointF
 from PySide2.QtGui          import QIcon, QColor
 from PySide2.QtWidgets      import QFrame, QVBoxLayout, QHBoxLayout, QMainWindow, QApplication, QSizePolicy, QSpacerItem, QGraphicsDropShadowEffect, QWidget
-
-import ThemeManager
-from TopBar            import TopBar
-from FolderList        import FolderList
-from ImageList         import ImageList
-from ScrollBar         import ScrollBar
-from Canvas            import Canvas
-from BoxManager        import BoxManager
-from LabelConfigurator import LabelConfigurator
+from ILYA                   import ThemeManager
+from ILYA.TopBar            import TopBar
+from ILYA.FolderList        import FolderList
+from ILYA.ImageList         import ImageList
+from ILYA.ScrollBar         import ScrollBar
+from ILYA.Canvas            import Canvas
+from ILYA.BoxManager        import BoxManager
+from ILYA.LabelConfigurator import LabelConfigurator
 
 class Central(QFrame):
     '''Initializes, styles, and connects the various classes'''
